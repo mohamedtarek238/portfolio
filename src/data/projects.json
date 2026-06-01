@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Linux Health Check Dashboard",
+    "description": "Automated Linux server auditing tool that collects CPU, memory, disk, and service status and generates actionable reports.",
+    "technologies": [
+      { "name": "Bash", "icon": "FiZap" },
+      { "name": "Linux", "icon": "FaLinux" }
+    ],
+    "github": "https://github.com/mohamedtarek/linux-health-check",
+    "demo": "https://example.com/linux-health-check",
+    "image": "linux-health-check.webp",
+    "featured": true,
+    "category": "Automation",
+    "problem": "Linux servers were audited manually with inconsistent reporting.",
+    "solution": "Built an automated audit dashboard that collects server health metrics and generates reports.",
+    "lessonsLearned": "Automation saves time and improves visibility across infrastructure."
+  },
+  {
+    "id": 2,
+    "title": "Apache Version Audit Automation",
+    "description": "Ansible playbook that checks Apache service status and retrieves version information across multiple servers.",
+    "technologies": [
+      { "name": "Ansible", "icon": "FiZap" },
+      { "name": "Apache", "icon": "FiServer" },
+      { "name": "Linux", "icon": "FaLinux" }
+    ],
+    "github": "https://github.com/mohamedtarek/apache-version-audit",
+    "demo": "https://example.com/apache-version-audit",
+    "image": "apache-version-audit.webp",
+    "featured": true,
+    "category": "Automation",
+    "problem": "Apache versions were not tracked consistently across servers.",
+    "solution": "Implemented a scripted audit that validated service health and version compliance.",
+    "lessonsLearned": "Standardization makes large fleets easier to manage."
+  },
+  {
+    "id": 3,
+    "title": "Docker Monitoring Stack",
+    "description": "Monitoring environment built with Prometheus, Grafana and Node Exporter running in Docker containers.",
+    "technologies": [
+      { "name": "Docker", "icon": "FaDocker" },
+      { "name": "Prometheus", "icon": "FiBarChart2" },
+      { "name": "Grafana", "icon": "FiBarChart2" }
+    ],
+    "github": "https://github.com/mohamedtarek/docker-monitoring-stack",
+    "demo": "https://example.com/docker-monitoring",
+    "image": "docker-monitoring-stack.webp",
+    "featured": false,
+    "category": "Monitoring",
+    "problem": "Container metrics were scattered and hard to correlate.",
+    "solution": "Created a unified monitoring stack with dashboard-based alerting.",
+    "lessonsLearned": "Integrated monitoring reduces downtime and increases operational confidence."
+  },
+  {
+    "id": 4,
+    "title": "Kubernetes Home Lab",
+    "description": "Production-like Kubernetes lab environment with deployments, services and networking for learning and testing.",
+    "technologies": [
+      { "name": "Kubernetes", "icon": "FiBox" },
+      { "name": "Docker", "icon": "FaDocker" },
+      { "name": "Linux", "icon": "FaLinux" }
+    ],
+    "github": "https://github.com/mohamedtarek/kubernetes-home-lab",
+    "demo": "https://example.com/kubernetes-home-lab",
+    "image": "kubernetes-home-lab.webp",
+    "featured": false,
+    "category": "Containers",
+    "problem": "There was no isolated environment for safely testing Kubernetes deployments.",
+    "solution": "Built a home lab cluster with realistic networking and service definitions.",
+    "lessonsLearned": "Hands-on labs accelerate learning and reveal real operational challenges."
+  },
+  {
+    "id": 5,
+    "title": "CI/CD Pipeline",
+    "description": "Automated deployment pipeline using GitHub Actions for continuous integration and deployment.",
+    "technologies": [
+      { "name": "GitHub Actions", "icon": "FaGithub" },
+      { "name": "Docker", "icon": "FaDocker" }
+    ],
+    "github": "https://github.com/mohamedtarek/cicd-pipeline",
+    "demo": "https://example.com/cicd-pipeline",
+    "image": "cicd-pipeline.webp",
+    "featured": false,
+    "category": "Automation",
+    "problem": "Deployments were manual and error-prone.",
+    "solution": "Built a CI/CD workflow that tested and deployed services automatically.",
+    "lessonsLearned": "Reliable automation frees engineers to solve higher-level problems."
+  },
+  {
+    "id": 6,
+    "title": "Infrastructure as Code",
+    "description": "Provisioning cloud infrastructure using Terraform for AWS resources.",
+    "technologies": [
+      { "name": "Terraform", "icon": "FiCloud" },
+      { "name": "AWS", "icon": "FiCloud" }
+    ],
+    "github": "https://github.com/mohamedtarek/terraform-aws-infrastructure",
+    "demo": "https://example.com/terraform-aws-infrastructure",
+    "image": "infrastructure-as-code.webp",
+    "featured": true,
+    "category": "Cloud",
+    "problem": "Cloud environments were created manually and lacked repeatability.",
+    "solution": "Implemented infrastructure as code for repeatable AWS deployments.",
+    "lessonsLearned": "Versioned infrastructure is essential for safe scaling and recovery."
+  }
+]

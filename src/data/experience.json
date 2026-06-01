@@ -1,0 +1,23 @@
+{
+  "experiences": [
+    {
+      "title": "Junior System Operations Engineer",
+      "company": "Your Company Name",
+      "duration": "2023 - Present",
+      "responsibilities": [
+        "Linux administration on RHEL, CentOS, and Ubuntu servers",
+        "System monitoring, performance tuning, and optimization",
+        "Incident troubleshooting and rapid problem resolution",
+        "Infrastructure support and maintenance",
+        "Automation of routine tasks using Bash and Ansible",
+        "Infrastructure deployment and configuration management"
+      ]
+    }
+  ],
+  "education": [
+    "Bachelor's Degree in Information Technology",
+    "Advanced Linux System Administration Training",
+    "Cloud Computing Fundamentals Course",
+    "DevOps and Containerization Bootcamp"
+  ]
+}

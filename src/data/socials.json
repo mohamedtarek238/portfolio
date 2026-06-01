@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GitHub",
+    "label": "GitHub",
+    "url": "https://github.com/mohamedtarek",
+    "icon": "FiGithub"
+  },
+  {
+    "name": "LinkedIn",
+    "label": "LinkedIn",
+    "url": "https://linkedin.com/in/mohamedtarek",
+    "icon": "FiLinkedin"
+  },
+  {
+    "name": "Email",
+    "label": "Email",
+    "url": "mailto:tarek@example.com",
+    "icon": "FiMail"
+  }
+]

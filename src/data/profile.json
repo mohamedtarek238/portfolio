@@ -1,0 +1,42 @@
+{
+  "name": "Mohamed Tarek",
+  "title": "System Operations Engineer",
+  "subtitle": "DevOps enthusiast with expertise in Linux administration, cloud infrastructure, containerization, and automation.",
+  "about": "I am a dedicated System Operations Engineer focused on designing, implementing, and maintaining robust infrastructure solutions. My experience spans Linux system administration, cloud deployments, container orchestration, and infrastructure automation.",
+  "location": "Cairo, Egypt",
+  "email": "tarek@example.com",
+  "linkedin": "https://linkedin.com/in/mohamedtarek",
+  "github": "https://github.com/mohamedtarek",
+  "techStack": ["Linux", "AWS", "Docker", "Kubernetes", "Ansible"],
+  "highlights": [
+    {
+      "title": "Linux Administration",
+      "description": "Expert in RHEL, CentOS, and Ubuntu systems management",
+      "icon": "FaLinux"
+    },
+    {
+      "title": "Cloud Infrastructure",
+      "description": "AWS cloud services and infrastructure deployment",
+      "icon": "FiCloud"
+    },
+    {
+      "title": "Infrastructure Automation",
+      "description": "Ansible, Bash scripting, and CI/CD pipeline management",
+      "icon": "FiZap"
+    },
+    {
+      "title": "Incident Response",
+      "description": "Rapid troubleshooting and system optimization",
+      "icon": "FiServer"
+    }
+  ],
+  "expertise": [
+    "Linux Administration (RHEL, CentOS, Ubuntu)",
+    "AWS Cloud Services (EC2, VPC, IAM, S3)",
+    "Container Technologies (Docker, Kubernetes)",
+    "Infrastructure Automation (Ansible, Bash)",
+    "CI/CD Pipeline Development",
+    "System Monitoring and Incident Response"
+  ],
+  "contactText": "Have a project in mind or want to collaborate? Let's connect!"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "category": "Linux",
+    "skills": [
+      { "name": "RHEL", "icon": "FaLinux" },
+      { "name": "CentOS", "icon": "FaLinux" },
+      { "name": "Ubuntu", "icon": "FaLinux" },
+      { "name": "Shell Scripting", "icon": "FiZap" }
+    ]
+  },
+  {
+    "category": "Cloud",
+    "skills": [
+      { "name": "AWS", "icon": "FiCloud" },
+      { "name": "IAM", "icon": "FiCloud" },
+      { "name": "EC2", "icon": "FiServer" },
+      { "name": "VPC", "icon": "FiCloud" }
+    ]
+  },
+  {
+    "category": "Containers",
+    "skills": [
+      { "name": "Docker", "icon": "FaDocker" },
+      { "name": "Kubernetes", "icon": "FiBox" },
+      { "name": "Container Security", "icon": "FiShield" }
+    ]
+  },
+  {
+    "category": "Automation",
+    "skills": [
+      { "name": "Ansible", "icon": "FiZap" },
+      { "name": "Bash", "icon": "FiZap" },
+      { "name": "CI/CD", "icon": "FiGitBranch" }
+    ]
+  },
+  {
+    "category": "Monitoring",
+    "skills": [
+      { "name": "Grafana", "icon": "FiBarChart2" },
+      { "name": "Prometheus", "icon": "FiBarChart2" },
+      { "name": "Alerting", "icon": "FiBell" }
+    ]
+  },
+  {
+    "category": "Version Control",
+    "skills": [
+      { "name": "Git", "icon": "FaGit" },
+      { "name": "GitHub", "icon": "FaGithub" },
+      { "name": "Branching", "icon": "FiGitBranch" }
+    ]
+  }
+]
