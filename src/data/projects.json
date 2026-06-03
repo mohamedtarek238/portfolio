@@ -1,21 +1,25 @@
 [
-  {
-    "id": 1,
-    "title": "Linux Health Check Dashboard",
-    "description": "Automated Linux server auditing tool that collects CPU, memory, disk, and service status and generates actionable reports.",
-    "technologies": [
-      { "name": "Bash", "icon": "FiZap" },
-      { "name": "Linux", "icon": "FaLinux" }
-    ],
-    "github": "https://github.com/mohamedtarek/linux-health-check",
-    "demo": "https://example.com/linux-health-check",
-    "image": "linux-health-check.webp",
-    "featured": true,
-    "category": "Automation",
-    "problem": "Linux servers were audited manually with inconsistent reporting.",
-    "solution": "Built an automated audit dashboard that collects server health metrics and generates reports.",
-    "lessonsLearned": "Automation saves time and improves visibility across infrastructure."
-  },
+ {
+"id": 1,
+"title": "Containerized CI/CD Pipeline with Jenkins and Docker",
+"description": "Designed and implemented a complete CI/CD pipeline using Jenkins, Docker, GitHub, and Nginx. The solution automatically builds and deploys containerized applications through an automated deployment workflow.",
+"technologies": [
+{ "name": "Jenkins", "icon": "SiJenkins" },
+{ "name": "Docker", "icon": "FaDocker" },
+{ "name": "GitHub", "icon": "FaGithub" },
+{ "name": "Linux", "icon": "FaLinux" },
+{ "name": "Nginx", "icon": "SiNginx" }
+],
+"github": "https://github.com/mohamedtarek238/devops-cicd-pipeline",
+"demo": "",
+"image": "devops-cicd-pipeline.webp",
+"featured": true,
+"category": "DevOps",
+"problem": "Application deployments were performed manually, making releases slow, error-prone, and difficult to reproduce consistently.",
+"solution": "Built a containerized Jenkins environment integrated with Docker and GitHub to automate application build and deployment workflows through CI/CD pipelines.",
+"lessonsLearned": "Learned Docker socket integration, custom Jenkins image creation, containerized CI/CD architecture, pipeline automation, troubleshooting Jenkins SCM issues, and Docker permission management."
+}
+,
   {
     "id": 2,
     "title": "Apache Version Audit Automation",
