@@ -46,37 +46,41 @@ const Certifications = () => {
         </motion.div>
 
         <motion.div variants={containerVariants} className="grid md:grid-cols-2 gap-6">
-          {certifications.map((cert, index) => {
-            const imageUrl = getCertificationImageUrl(cert.image)
-            return (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                whileHover={{ x: 10, transition: { duration: 0.3 } }}
-                className="group glass rounded-lg p-6 cursor-pointer"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="relative w-20 h-20 rounded-2xl bg-white p-2 flex items-center justify-center">
-                    {cert.image ? (
-                      <img src={cert.image} alt={cert.name} className="max-w-full max-h-full object-contain" />
-                    ) : (
-                      <div className="w-full h-full bg-dark-secondary" />
-                    )}
-                  </div>
-
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-accent-cyan transition-colors">
-                      {cert.name}
-                    </h3>
-                    <p className="text-accent-cyan text-sm mb-2">{cert.issuer}</p>
-                    <p className="text-gray-400 text-sm">{cert.date}</p>
-                  </div>
-
-                  <FiArrowRight className="text-accent-cyan mt-1 group-hover:translate-x-2 transition-transform" />
+          {certifications.map((cert, index) => (
+            <motion.a
+              key={index}
+              href={cert.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              variants={itemVariants}
+              whileHover={{ x: 10, transition: { duration: 0.3 } }}
+              className="group glass rounded-lg p-6 cursor-pointer block"
+            >
+              <div className="flex items-start gap-4">
+                <div className="relative w-20 h-20 rounded-2xl bg-white p-2 flex items-center justify-center">
+                  {cert.image ? (
+                    <img
+                      src={cert.image}
+                      alt={cert.name}
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-dark-secondary" />
+                  )}
                 </div>
-              </motion.div>
-            )
-          })}
+
+                <div className="flex-1">
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-accent-cyan transition-colors">
+                    {cert.name}
+                  </h3>
+                  <p className="text-accent-cyan text-sm mb-2">{cert.issuer}</p>
+                  <p className="text-gray-400 text-sm">{cert.date}</p>
+                </div>
+
+                <FiArrowRight className="text-accent-cyan mt-1 group-hover:translate-x-2 transition-transform" />
+              </div>
+            </motion.a>
+          ))}
         </motion.div>
 
         <motion.div variants={itemVariants} className="mt-12 text-center">

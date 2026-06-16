@@ -3,24 +3,28 @@
     "name": "RHCSA - Red Hat Certified System Administrator",
     "issuer": "Red Hat",
     "date": "Issued 2025",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Red_Hat_logo.svg",
+    "url": "https://drive.google.com/file/d/1yb13dlMmklNuxICE3t6FOeXXRWOd8NuF/view?usp=sharing"
   },
   {
     "name": "Oracle Cloud Infrastructure Foundations Associate",
     "issuer": "Oracle",
     "date": "Issued 2025",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+    "url": "https://drive.google.com/file/d/1bnfU6UHV5REHoe3N3A3yK7vRVtwq1E2t/view?usp=sharing"
   },
   {
     "name": "AWS Certified Cloud Practitioner",
     "issuer": "Amazon Web Services",
     "date": "Issued 2026",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    "url": "https://drive.google.com/file/d/1_ED0VSRp6tzh6BeZEE_9RYnawlo9-fVr/view?usp=sharing"
   },
   {
     "name": "HCCDA - Huawei Cloud Certified Developer Associate",
     "issuer": "Huawei",
     "date": "Issued 2025",
-    "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Huawei_Standard_logo.svg",
+    "url": "https://drive.google.com/file/d/1-DZ1TqZRA3_EYijbjjSyaqxrAZKUEsHp/view?usp=sharing"
   }
 ]
