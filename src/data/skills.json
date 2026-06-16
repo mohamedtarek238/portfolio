@@ -1,52 +1,101 @@
 [
   {
-    "category": "Linux",
+    "category": "Cloud Platforms",
     "skills": [
-      { "name": "RHEL", "icon": "FaLinux" },
-      { "name": "CentOS", "icon": "FaLinux" },
-      { "name": "Ubuntu", "icon": "FaLinux" },
-      { "name": "Shell Scripting", "icon": "FiZap" }
-    ]
+    { "name": "AWS", "icon": "FiCloud" },
+    { "name": "Azure", "icon": "FiCloud" },
+    { "name": "Oracle Cloud (OCI)", "icon": "FiCloud" },
+    { "name": "Huawei Cloud", "icon": "FiCloud" }
+  ]
   },
   {
-    "category": "Cloud",
-    "skills": [
-      { "name": "AWS", "icon": "FiCloud" },
-      { "name": "IAM", "icon": "FiCloud" },
-      { "name": "EC2", "icon": "FiServer" },
-      { "name": "VPC", "icon": "FiCloud" }
-    ]
-  },
-  {
-    "category": "Containers",
+    "category": "Containerization",
     "skills": [
       { "name": "Docker", "icon": "FaDocker" },
-      { "name": "Kubernetes", "icon": "FiBox" },
+      { "name": "Kubernetes (K8s)", "icon": "FiBox" },
+      { "name": "Helm", "icon": "FiPackage" },
+      { "name": "Persistent Volumes", "icon": "FiHardDrive" },
       { "name": "Container Security", "icon": "FiShield" }
     ]
   },
   {
-    "category": "Automation",
+    "category": "IaC & Config Mgmt",
     "skills": [
+      { "name": "Terraform", "icon": "FiLayers" },
       { "name": "Ansible", "icon": "FiZap" },
-      { "name": "Bash", "icon": "FiZap" },
-      { "name": "CI/CD", "icon": "FiGitBranch" }
+      { "name": "YAML", "icon": "FiFileText" },
+      { "name": "JSON", "icon": "FiCode" }
     ]
   },
   {
-    "category": "Monitoring",
+    "category": "CI/CD & DevOps",
     "skills": [
-      { "name": "Grafana", "icon": "FiBarChart2" },
-      { "name": "Prometheus", "icon": "FiBarChart2" },
-      { "name": "Alerting", "icon": "FiBell" }
-    ]
-  },
-  {
-    "category": "Version Control",
-    "skills": [
+      { "name": "Jenkins", "icon": "FiRepeat" },
+      { "name": "GitHub Actions", "icon": "FaGithub" },
       { "name": "Git", "icon": "FaGit" },
-      { "name": "GitHub", "icon": "FaGithub" },
-      { "name": "Branching", "icon": "FiGitBranch" }
+      { "name": "GitOps Workflows", "icon": "FiGitBranch" }
+    ]
+  },
+  {
+    "category": "Observability",
+    "skills": [
+      { "name": "Prometheus", "icon": "FiBarChart2" },
+      { "name": "Grafana", "icon": "FiBarChart2" },
+      { "name": "Loki", "icon": "FiActivity" },
+      { "name": "Jaeger", "icon": "FiSearch" },
+      { "name": "Zipkin", "icon": "FiSearch" },
+      { "name": "OpenTelemetry", "icon": "FiEye" }
+    ]
+  },
+  {
+    "category": "Security",
+    "skills": [
+      { "name": "DevSecOps", "icon": "FiShield" },
+      { "name": "SonarQube", "icon": "FiCode" },
+      { "name": "Trivy", "icon": "FiShield" },
+      { "name": "IAM", "icon": "FiLock" },
+      { "name": "Vulnerability Scanning", "icon": "FiAlertTriangle" }
+    ]
+  },
+  {
+    "category": "OS & Virtualization",
+    "skills": [
+      { "name": "Ubuntu", "icon": "FaLinux" },
+      { "name": "RHEL", "icon": "FaLinux" },
+      { "name": "CentOS", "icon": "FaLinux" },
+      { "name": "Windows Server", "icon": "FaWindows" },
+      { "name": "VMware vSphere", "icon": "FiMonitor" }
+    ]
+  },
+  {
+    "category": "Scripting & Programming",
+    "skills": [
+      { "name": "Bash", "icon": "FiTerminal" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "JavaScript", "icon": "FaJs" },
+      { "name": "Node.js", "icon": "FaNodeJs" },
+      { "name": "PHP", "icon": "FaPhp" },
+      { "name": "C++", "icon": "FiCode" }
+    ]
+  },
+  {
+    "category": "Databases",
+    "skills": [
+      { "name": "MySQL", "icon": "FiDatabase" },
+      { "name": "PostgreSQL", "icon": "FiDatabase" },
+      { "name": "MongoDB", "icon": "FiDatabase" },
+      { "name": "AWS RDS", "icon": "FiDatabase" }
+    ]
+  },
+  {
+    "category": "Networking",
+    "skills": [
+      { "name": "TCP/IP", "icon": "FiGlobe" },
+      { "name": "DNS", "icon": "FiGlobe" },
+      { "name": "Load Balancing", "icon": "FiShuffle" },
+      { "name": "VPN", "icon": "FiLock" },
+      { "name": "Firewall", "icon": "FiShield" },
+      { "name": "Troubleshooting", "icon": "FiTool" }
     ]
   }
 ]

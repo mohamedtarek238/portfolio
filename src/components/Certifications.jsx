@@ -7,6 +7,7 @@ import { getCertificationImageUrl } from '../hooks/useProjectAssets'
 
 const Certifications = () => {
   const { certifications } = usePortfolio()
+  console.log('Certifications:', certifications) // Debugging line to check the certifications data
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -55,9 +56,9 @@ const Certifications = () => {
                 className="group glass rounded-lg p-6 cursor-pointer"
               >
                 <div className="flex items-start gap-4">
-                  <div className="relative w-20 h-20 overflow-hidden rounded-2xl bg-gradient-to-br from-accent-blue to-accent-cyan">
-                    {imageUrl ? (
-                      <img src={imageUrl} alt={cert.name} className="w-full h-full object-cover" />
+                  <div className="relative w-20 h-20 rounded-2xl bg-white p-2 flex items-center justify-center">
+                    {cert.image ? (
+                      <img src={cert.image} alt={cert.name} className="max-w-full max-h-full object-contain" />
                     ) : (
                       <div className="w-full h-full bg-dark-secondary" />
                     )}
