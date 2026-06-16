@@ -1,26 +1,26 @@
 [
   {
+    "name": "RHCSA - Red Hat Certified System Administrator",
+    "issuer": "Red Hat",
+    "date": "Issued 2025",
+    "image": "rhcsa.webp"
+  },
+  {
+    "name": "Oracle Cloud Infrastructure Foundations Associate",
+    "issuer": "Oracle",
+    "date": "Issued 2025",
+    "image": "oracle-cloud.webp"
+  },
+  {
     "name": "AWS Certified Cloud Practitioner",
     "issuer": "Amazon Web Services",
-    "date": "Issued 2024",
+    "date": "Issued 2026",
     "image": "aws-cloud-practitioner.webp"
   },
   {
-    "name": "Red Hat Training - Linux System Administration",
-    "issuer": "Red Hat",
-    "date": "Issued 2023",
-    "image": "red-hat-linux-administration.webp"
-  },
-  {
-    "name": "Fortinet NSE - Network Security Expert",
-    "issuer": "Fortinet",
-    "date": "Issued 2024",
-    "image": "fortinet-nse.webp"
-  },
-  {
-    "name": "Cisco Certified Associate - Networking",
-    "issuer": "Cisco",
-    "date": "Issued 2023",
-    "image": "cisco-networking.webp"
+    "name": "HCCDA - Huawei Cloud Certified Developer Associate",
+    "issuer": "Huawei",
+    "date": "Issued 2025",
+    "image": "hccda.webp"
   }
 ]
