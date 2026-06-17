@@ -107,5 +107,30 @@
     "problem": "Cloud environments were created manually and lacked repeatability.",
     "solution": "Implemented infrastructure as code for repeatable AWS deployments.",
     "lessonsLearned": "Versioned infrastructure is essential for safe scaling and recovery."
-  }
+  },
+  {
+  "id": 7,
+  "title": "Three-Tier DevSecOps CI/CD Pipeline on Kubernetes",
+  "description": "Designed and implemented an end-to-end DevSecOps pipeline for a full-stack three-tier application using Jenkins, SonarQube, Trivy, Docker, Kubernetes, and ArgoCD. The solution automates code quality checks, security scanning, containerization, and GitOps-based continuous delivery.",
+  "technologies": [
+    { "name": "Jenkins", "icon": "SiJenkins" },
+    { "name": "SonarQube", "icon": "FiCode" },
+    { "name": "Trivy", "icon": "FiShield" },
+    { "name": "Docker", "icon": "FaDocker" },
+    { "name": "Kubernetes", "icon": "FiBox" },
+    { "name": "ArgoCD", "icon": "FiGitBranch" },
+    { "name": "React", "icon": "FaReact" },
+    { "name": "Node.js", "icon": "FaNodeJs" },
+    { "name": "MongoDB", "icon": "SiMongodb" },
+    { "name": "NGINX", "icon": "SiNginx" }
+  ],
+  "github": "https://github.com/mohamedtarek238/three-tier-devsecops-pipeline",
+  "demo": "",
+  "image": "three-tier-devsecops-pipeline.webp",
+  "featured": true,
+  "category": "DevSecOps",
+  "problem": "Deploying and securing modern applications manually creates operational bottlenecks, inconsistent releases, limited visibility into vulnerabilities, and increased risk of production issues.",
+  "solution": "Built a complete DevSecOps CI/CD pipeline where Jenkins automates application builds, SonarQube enforces code quality gates, Trivy performs vulnerability scanning, Docker packages services into containers, and ArgoCD continuously synchronizes Kubernetes deployments using a GitOps workflow.",
+  "lessonsLearned": "Gained hands-on experience implementing DevSecOps practices, integrating security into CI/CD pipelines, managing Kubernetes deployments, configuring GitOps workflows with ArgoCD, securing containerized applications, and automating quality and vulnerability checks before production releases."
+}
 ]

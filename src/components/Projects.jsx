@@ -24,7 +24,7 @@ const Projects = () => {
     }
     return projects.filter((project) => project.category === activeFilter)
   }, [projects, activeFilter])
-
+  console.log('Projects:', projects) // Debugging line to check the projects data
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -69,11 +69,10 @@ const Projects = () => {
             <button
               key={category}
               onClick={() => setActiveFilter(category)}
-              className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${
-                activeFilter === category
+              className={`px-4 py-2 rounded-full text-sm font-semibold transition-all ${activeFilter === category
                   ? 'bg-accent-cyan text-dark-bg shadow-lg shadow-cyan-500/20'
                   : 'bg-dark-tertiary text-gray-300 hover:bg-dark-secondary'
-              }`}
+                }`}
             >
               {category}
             </button>

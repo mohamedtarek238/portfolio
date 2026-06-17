@@ -7,7 +7,7 @@ import { getCertificationImageUrl } from '../hooks/useProjectAssets'
 
 const Certifications = () => {
   const { certifications } = usePortfolio()
-  console.log('Certifications:', certifications) // Debugging line to check the certifications data
+ 
 
   const containerVariants = {
     hidden: { opacity: 0 },
